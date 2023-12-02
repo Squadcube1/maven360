@@ -18,19 +18,19 @@ public class Devicemgt_TC_001 extends BaseClass {
 		Thread.sleep(10000);
 		
 		d.searchbydevicetype();
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		logger.info("searching by Device type...");
 		d.searchbybrandname();
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		logger.info("searching by Brand name...");
 		d.searchbydeviceid();
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		logger.info("searching by Device id...");
 		d.searchbyserialno();
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		logger.info("searching by Seriel no...");
 		d.searchbyversion();
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		logger.info("searching by version...");
 		
 	}
